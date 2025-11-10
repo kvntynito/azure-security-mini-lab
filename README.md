@@ -1,10 +1,13 @@
 # <Project Title>
 
-> One-liner: what this repo demonstrates (e.g., “Azure Sentinel detections + incident write-ups”)
+Cloud Security (Azure) Repo
 
 ## 🎯 Objectives
-- What you set out to learn/build
-- Which security domain(s) this covers (SIEM, IR, GRC, Cloud, etc.)
+- Azure Security Review
+- Sentinel screenshots
+- Defender for Cloud findings
+- Key Vault security notes
+- IAM / RBAC analysis
 
 ## 🧪 What’s Inside
 - `docs/` – reports, playbooks, baselines, diagrams
