@@ -1,4 +1,4 @@
-# <Project Title>
+## Azure Cloud Security
 
 This project demonstrates hands-on cloud security skills inside Microsoft Azure.
 It includes Azure security reviews, Sentinel analyses, IAM evaluations, architecture mapping, and evidence from a real mini-lab using Azure free-tier resources.
