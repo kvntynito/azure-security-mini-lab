@@ -19,8 +19,8 @@ It includes Azure security reviews, Sentinel analyses, IAM evaluations, architec
 ## 🧪 Lab Setup (Quick Start)
 This lab uses a small Azure environment created using the Azure free tier, making it easy to replicate.
 
-✅ **Azure Resources Used**
-- **Azure AD / Entra ID**
+**Azure Resources Used**
+- **Identity (Azure AD / Entra ID)**
   - Users, groups, role assignments
   - Conditional Access (optional)
 - **Log Analytics Workspace**
@@ -41,48 +41,48 @@ This lab uses a small Azure environment created using the Azure free tier, makin
   - App Services
 
 ## ☁️ Cloud Security Focus Areas
-✅ **Identity Security (Entra ID)**
+**Identity Security (Entra ID)**
 - MFA enforcement
 - Role-based access control (RBAC)
 - Privileged roles review
 - Conditional Access testing
 - Sign-in logs analysis
 
-✅ **Microsoft Sentinel**
+**Microsoft Sentinel**
 - Analytics rules
 - Basic detections
 - Incident investigation
 - Hunting queries (KQL)
 - Connecting data sources
 
-✅ **Defender for Cloud**
+**Defender for Cloud**
 - Secure Score improvement
 - Resource configuration review
 - Recommendations export
 - Comparison before/after
   
-✅ **Azure Resource Security**
+**Azure Resource Security**
 - Storage account hardening
 - Network security groups
 - Key Vault access policies
 - VM baseline assessment
 
 ## ▶️ How to Run (Lab Steps)
-✅ **1. Create or use Azure free account**
+**1. Create or use Azure free account**
 Spin up:
 - 1 VM
 - 1 Log Analytics Workspace
 - 1 Sentinel instance
 - Basic identity setup
 
-✅ **2. Connect security data sources**
+**2. Connect security data sources**
 Enable:
 - Azure activity logs
 - Sign-in logs
 - Defender for Cloud
 - Sysmon logs (optional if VM used)
 
-✅ **3. Review posture with Defender for Cloud**
+**3. Review posture with Defender for Cloud**
 
 Export:
 - Secure Score
@@ -91,7 +91,7 @@ Export:
 
 Save screenshots in /lab/.
 
-✅ **4. Test Sentinel detections**
+**4. Test Sentinel detections**
 
 Examples:
 - Failed login attempts
@@ -100,7 +100,7 @@ Examples:
 
 Save alerts + queries.
 
-✅ **5. Document the findings**
+**5. Document the findings**
 
 Fill in:
 - docs/Azure_Security_Review_TEMPLATE.md
